@@ -1,7 +1,7 @@
 pipeline {  
 
   environment {
-    registry = "docker_hub_account/repository_name"
+    registry = "gustavoapolinario/jenkins-docker"
     registryCredential = 'dockerhub'
   }  
    
