@@ -1,10 +1,10 @@
 pipeline {  
 
-  environment {
+environment {
     registry = "gustavoapolinario/jenkins-docker"
     registryCredential = 'dockerhub'
   }  
-   
+  
   agent any  stages {
     stage('Building image') {
       steps{
