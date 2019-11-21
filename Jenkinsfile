@@ -5,7 +5,7 @@ pipeline {
         stages {
             stage ('Cloning Git'){ 
                 steps { 
-                    git 'https://github.com/3rdfitzgerald/Callender'
+                    git 'https://github.com/gustavoapolinario/nodo-todo-frontend'
                 }
             }
             
